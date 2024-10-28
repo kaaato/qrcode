@@ -63,3 +63,47 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+/* my css */
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 0.9375rem;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section {
+  max-width: 21rem;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 1rem 1rem 2rem;
+}
+
+section img {
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+p {
+  font-weight: 200;
+}
+
+.text-contents {
+  margin: 0 1rem;
+}
+
+.attribution { 
+  font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
